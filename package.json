@@ -12,7 +12,6 @@
   "dependencies": {
     "express": "^4.17.1",
     "reflect-metadata": "^0.1.13",
-    "sqlite3": "^5.0.2",
     "typeorm": "^0.2.34",
     "uuid": "^8.3.2"
   },
