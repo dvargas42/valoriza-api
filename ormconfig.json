@@ -5,10 +5,10 @@
   "username": "postgres",
   "password": "postgres",
   "database": "nlw",
-  "migrations": ["./src/database/migrations/*.ts"],
-  "entities": ["./src/entities/*.ts"],
+  "migrations": ["src/database/migrations/*.ts"],
+  "entities": ["src/entities/*.ts"],
   "cli": {
-    "migrationsDir": "./src/database/migrations",
-    "entitiesDir": "./src/entities"
+    "migrationsDir": "src/database/migrations",
+    "entitiesDir": "src/entities"
   }
 }
