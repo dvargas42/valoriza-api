@@ -35,7 +35,7 @@
   <a href="#-screnshots">Screenshots</a>&nbsp;|&nbsp;
   <a href="#-technologies">Technologies</a>&nbsp;|&nbsp;
   <a href="#-getting-started">Getting started</a>&nbsp;|&nbsp;
-  <a href="#-route-structure">Routes structure</a>&nbsp;|&nbsp;
+  <a href="#-routes-structure">Routes structure</a>&nbsp;|&nbsp;
   <a href="#-how-to-contribute">How to contribute</a>&nbsp;|&nbsp;
   <a href="#-license">License</a>
 </p>
