@@ -35,7 +35,7 @@
   <a href="#-screnshots">Screenshots</a>&nbsp;|&nbsp;
   <a href="#-technologies">Technologies</a>&nbsp;|&nbsp;
   <a href="#-getting-started">Getting started</a>&nbsp;|&nbsp;
-  <a href="#-route-structure">Route structure</a>&nbsp;|&nbsp;
+  <a href="#-route-structure">Routes structure</a>&nbsp;|&nbsp;
   <a href="#-how-to-contribute">How to contribute</a>&nbsp;|&nbsp;
   <a href="#-license">License</a>
 </p>
@@ -93,7 +93,7 @@ Attention, even after all this the database will be empty. If you want, you can 
 
 
 
-- [valoriza-frontend](https://github.com/dvargas42/valoriza-frontend) (Under construction)
+- [valoriza-frontend](https://github.com/dvargas42/valoriza-frontend) (🚧 Under construction)
 
 
 
@@ -200,7 +200,7 @@ $ yarn dev:server
 
 ### **Route Users (./users)**
 
-*(/ ) POST Method - Create user*
+*( / ) POST Method - Create user*
 
 Input:
 ```bash
@@ -211,7 +211,7 @@ Return:
 { name, email, admin, password } #passwordHash
 ```
 
-*(/ ) GET Method - List users*
+*( / ) GET Method - List users*
 
 Input:
 ```bash
@@ -227,7 +227,7 @@ user[]
 
 ### **Route Tags (./tags)**
 
-*(/ ) POST Method - Create tag*
+*( / ) POST Method - Create tag*
 
 Input:
 ```bash
@@ -238,7 +238,7 @@ Return:
 { id, name, nameCustom, created_at, updated-at }
 ```
 
-*(/ ) GET Method - List tags*
+*( / ) GET Method - List tags*
 
 Input:
 ```bash
@@ -254,7 +254,7 @@ tag[]
 
 ### **Route Compliments (./compliments)**
 
-*(/ ) POST Method - Create compliment*
+*( / ) POST Method - Create compliment*
 
 Input:
 ```bash
@@ -264,7 +264,7 @@ Return:
 ```bash
 { id, user_sender, user_receiver, tag_id, message, created_at  }
 ```
-*(/send) GET Method - List sended compliments*
+*( /send) GET Method - List sended compliments*
 
 Input:
 ```bash
@@ -276,7 +276,7 @@ Return:
 
 compliment[] 
 ```
-*(/receive) GET Method - List received compliments*
+*( /receive) GET Method - List received compliments*
 
 Input:
 ```bash
@@ -291,7 +291,7 @@ compliment[]
 
 ### **Route Sessions (./sessions)**
 
-*(/ ) POST Method - Create session*
+*( / ) POST Method - Create session*
 
 Input:
 ```bash
