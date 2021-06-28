@@ -171,29 +171,29 @@ $ yarn dev:server
 
 ```bash
 
-├── /users
+├─ /users
 │     │
-│     ├── / -> (POST method) Create User
+│     ├── (/) -> (POST method) Create User
 │     │
-│     └── / -> (GET method) List User Data
+│     └── (/) -> (GET method) List User Data
 │
-├── /tags
+├─ /tags
 │     │
-│     ├── / -> (POST method) Create Tag
+│     ├── (/) -> (POST method) Create Tag
 │     │
-│     └── / -> (GET method) List User Tags
+│     └── (/) -> (GET method) List User Tags
 │
-├── /compliments
+├─ /compliments
 │     │
-│     ├── / -> (POST method) Create Compliments
+│     ├── (/) -> (POST method) Create Compliments
 │     │  
-│     ├── /send -> (GET method) List Sended Compliments
+│     ├── (/send) -> (GET method) List Sended Compliments
 │     │
-│     └── /receive -> (GET method) List Received Compliments
+│     └── (/receive) -> (GET method) List Received Compliments
 │
-└── /sessions
+└─ /sessions
       │
-      └── / -> (POST method) Create Session
+      └── (/) -> (POST method) Create Session
 
 ```
 &nbsp;
